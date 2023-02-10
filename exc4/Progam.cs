@@ -46,11 +46,11 @@ internal class program
         int record = khuPho.hoGiaDinhs.Count();
         while (true)
         {
-            
-           
+
+
             Console.WriteLine("1 + Enter : Xem Thong Tin Ho Gia Dinh  ");
             Console.WriteLine("2 + Enter : Thoat                      ");
-            
+
             int choose = Int32.Parse(Console.ReadLine());
             switch (choose)
             {
@@ -83,10 +83,10 @@ internal class program
                                     Console.WriteLine(" Dia Chi: " + khuPho.hoGiaDinhs[i].DiaChi);
                                 }
                             }
-                            
+
                             Console.WriteLine("3 + Enter : Hien Thong Tin  ");
                             Console.WriteLine("4 + Enter : Thoat           ");
-                           
+
                             string? choose_step = Console.ReadLine();
                             switch (choose_step)
                             {
@@ -144,13 +144,3 @@ internal class program
         }
     }
 }
-
-
-            
-        
-
-
-
-    
-
-

@@ -8,7 +8,7 @@ namespace exc3
 {
     internal class KhoiC : ThiSinh
     {
-        public const string? VAN    = "VAN";
+        public const string? VAN = "VAN";
         public const string? SU = "SU";
         public const string? DIA = "DIA";
 
@@ -19,7 +19,7 @@ namespace exc3
         public override void OutPut()
         {
             base.OutPut();
-            Console.WriteLine("KhoiB : " + "Điểm Toán"+ VAN + "," + "Điểm sinh" + SU + "," + "Điểm hóa"+ DIA);
+            Console.WriteLine("KhoiB : " + "Điểm Toán" + VAN + "," + "Điểm sinh" + SU + "," + "Điểm hóa" + DIA);
         }
     }
 }

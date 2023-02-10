@@ -13,21 +13,21 @@ namespace exc5
         public string Id { get; set; }
         public int DuLieu { get; set; }
         public QuanLyPhong QuanLyPhong { get; }
-        
-        
-        
-        public NguoiDung(string ten, int tuoi, string id, int dulieu , QuanLyPhong quanLyPhong)
+
+
+
+        public NguoiDung(string ten, int tuoi, string id, int dulieu, QuanLyPhong quanLyPhong)
         {
             Ten = ten;
             Tuoi = tuoi;
             Id = id;
             DuLieu = dulieu;
             QuanLyPhong = quanLyPhong;
-          
+
         }
         public void outPut()
         {
-            Console.WriteLine("HoTen: " + Ten + ", Tuoi: " + Tuoi + ", Id: " + Id + ", Dulieu: " + DuLieu + "Hang phong" + QuanLyPhong.HangPhong + "Gia"+QuanLyPhong.Gia);
+            Console.WriteLine("HoTen: " + Ten + ", Tuoi: " + Tuoi + ", Id: " + Id + ", Dulieu: " + DuLieu + "Hang phong" + QuanLyPhong.HangPhong + "Gia" + QuanLyPhong.Gia);
         }
     }
 }

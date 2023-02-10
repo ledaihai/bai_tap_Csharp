@@ -8,8 +8,8 @@ namespace exc4
 {
     internal class HoGiaDinh
     {
-        
-    public int SoThanhVien { get; set; }
+
+        public int SoThanhVien { get; set; }
         public string? DiaChi { get; set; }
         public List<Nguoi>? Nguois { get; set; }
 

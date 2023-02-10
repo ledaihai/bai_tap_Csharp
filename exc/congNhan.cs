@@ -20,9 +20,7 @@ using System.Threading.Tasks;
         {
             base.outPut();
             Console.WriteLine(" Level: " + level);
-        }
-
-
+    }
     }  
 
 

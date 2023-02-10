@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace exc2
 {
-     class Megazine : Document
+    class Megazine : Document
     {
         public int Chapter { get; set; }
         public int Month { get; set; }
