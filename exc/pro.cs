@@ -14,12 +14,12 @@ namespace exc
             quanLy staffManagement = new quanLy();
             while (true)
             {
-                
+
                 Console.WriteLine(" Enter 1: To add new staff              ");
                 Console.WriteLine(" Enter 2: To search staff by name       ");
                 Console.WriteLine(" Enter 3: To show infomation of staffs  ");
                 Console.WriteLine(" Enter 4: To Exit                       ");
-                
+
                 int choose = Int32.Parse(Console.ReadLine());
                 switch (choose)
                 {
@@ -37,11 +37,11 @@ namespace exc
                                 string? gender = Console.ReadLine();
                                 Console.Write("Add address: ");
                                 string? address = Console.ReadLine();
-                                
+
                                 Console.WriteLine("Enter 5: To insert new Engineer ");
                                 Console.WriteLine("Enter 6: To insert new Worker   ");
                                 Console.WriteLine("Enter 7: To insert new Personnel");
-                                
+
                                 string? chooseAdd = Console.ReadLine();
                                 switch (chooseAdd)
                                 {
@@ -96,13 +96,5 @@ namespace exc
                 }
             }
         }
-    }   
+    }
 }
-            
-        
-
-
-
-    
-
-
