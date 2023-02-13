@@ -4,12 +4,9 @@ using System.Text;
 using System.Linq;
 using System.Threading.Tasks;
 
-
-
 class congNhan : Officer
 {
     private int level;
-
     public congNhan(string name, int age, string gender, string address, int level) : base(name, age, gender, address)
     {
 

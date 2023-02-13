@@ -1,4 +1,3 @@
-﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +16,4 @@ public class nhanVien : Officer
         base.outPut();
         Console.WriteLine(" role: " + role);
     }
-
-
 }

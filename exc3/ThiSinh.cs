@@ -12,7 +12,7 @@ namespace exc3
         public string Ten { get; set; }
         public string DiaChi { get; set; }
         public string MUT { get; set; }
-       
+
 
         public ThiSinh(int sBD, string ten, string diaChi, string mUT)
         {
@@ -23,7 +23,7 @@ namespace exc3
         }
         public virtual void OutPut()
         {
-            Console.WriteLine("SBD:"+ SBD +"Tên:"+Ten+"Dia chỉ :" + DiaChi + "Mức ưu tiên :"+MUT);
+            Console.WriteLine("SBD:" + SBD + "Tên:" + Ten + "Dia chỉ :" + DiaChi + "Mức ưu tiên :" + MUT);
         }
     }
 }

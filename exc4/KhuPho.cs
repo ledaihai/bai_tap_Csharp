@@ -16,7 +16,7 @@ namespace exc4
             khuPhos = new List<HoGiaDinh>();
         }
 
-        
+
         public KhuPho(List<HoGiaDinh> HoGiaDinhs)
         {
             this.khuPhos = khuPhos;
@@ -27,11 +27,10 @@ namespace exc4
             {
                 Console.WriteLine(new
                 {
-                   Diachi= HoGiaDinh.DiaChi,
-                    SoThanhVien =HoGiaDinh.DiaChi
+                    Diachi = HoGiaDinh.DiaChi,
+                    SoThanhVien = HoGiaDinh.DiaChi
                 });
             }
         }
     }
 }
-

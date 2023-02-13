@@ -19,7 +19,7 @@ namespace exc3
         public override void OutPut()
         {
             base.OutPut();
-            Console.WriteLine("KhoiB : " + "Điểm Toán"+ TOAN + "," + "Điểm sinh" + SINH + "," + "Điểm hóa"+ HOA);
+            Console.WriteLine("KhoiB : " + "Điểm Toán" + TOAN + "," + "Điểm sinh" + SINH + "," + "Điểm hóa" + HOA);
         }
     }
 }

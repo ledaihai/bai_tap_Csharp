@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace exc2
 {
-    class book :Document
+    class book : Document
     {
         public string? ActorName { get; set; }
 

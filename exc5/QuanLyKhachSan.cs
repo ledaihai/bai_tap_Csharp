@@ -11,7 +11,7 @@ namespace exc5
         public List<NguoiDung> nguoiDungs { get; set; }
         public QuanLyKhachSan()
         {
-            nguoiDungs  = new List<NguoiDung> {
+            nguoiDungs = new List<NguoiDung> {
             new NguoiDung("HAI", 300, "ZZZZ", 10 , new PhongA()),
             new NguoiDung("TIEN", 321, "SSS", 7 , new PhongB() )
         };

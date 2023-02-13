@@ -15,12 +15,12 @@ namespace exc
             QuanLyKhoiThi QuanlyKhoiThi = new QuanLyKhoiThi();
             while (true)
             {
-                
+
                 Console.WriteLine(" 1 + Enter : THÊM THÍ SINH MỚI  .            ");
                 Console.WriteLine(" 2 + Enter : XEM THÔNG TIN THÍ SINH . ");
                 Console.WriteLine(" 3 + Enter : TÌM THÔNG TIN THÍ SINH (SBD).     ");
                 Console.WriteLine(" 4 + Enter : THOÁT.                         ");
-                
+
                 int choose = Int32.Parse(Console.ReadLine());
                 switch (choose)
                 {
@@ -38,17 +38,17 @@ namespace exc
                                 string? DiaChi = Console.ReadLine();
                                 Console.Write("THÊM MỨC ƯU TIÊN : ");
                                 string? MUT = Console.ReadLine();
-                                
+
                                 Console.WriteLine("A+ Enter : THÊM HỌC SINH KHỐI A  ");
                                 Console.WriteLine("B+ Enter : THÊM HỌC SINH KHỐI B  ");
                                 Console.WriteLine("C+ Enter : THÊM HỌC SINH KHỐI C  ");
-                                
+
                                 string? chooseAdd = Console.ReadLine();
                                 switch (chooseAdd)
                                 {
                                     case "5":
                                         {
-                                            ThiSinh addThiSinh = new KhoiA(SBD, Ten , DiaChi, MUT);
+                                            ThiSinh addThiSinh = new KhoiA(SBD, Ten, DiaChi, MUT);
                                             QuanlyKhoiThi.AddThiSinh(addThiSinh);
                                             break;
                                         }
@@ -93,13 +93,5 @@ namespace exc
                 }
             }
         }
-    }   
+    }
 }
-            
-        
-
-
-
-    
-
-
